@@ -1,3 +1,16 @@
+# Objective: this is for CSPB3308 Lab 10 Render project 
+# Name: Mayumi Shimobe
+# GitHub ID: Mayumi=GT
+# CU ID: mash8545
+# Use: this contains a flask with 6 total working routes.
+# / Our initial Hello World route
+# db_test Which tests the database connection
+# db_create Which creates the Basketball table
+# db_insert Which inserts the provided information into the Basketball table
+# db_select Which queries the data from Basketball and returns a formatted table of information
+# db_drop Which drops the Basketball table
+# Note from the instructor: before submitting your final product call the db_drop route to ensure that the database used for your render app is empty, so that I can call your routes to test it.
+
 import psycopg2
 
 from flask import Flask
