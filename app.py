@@ -10,6 +10,9 @@
 # db_select Which queries the data from Basketball and returns a formatted table of information
 # db_drop Which drops the Basketball table
 # Note from the instructor: before submitting your final product call the db_drop route to ensure that the database used for your render app is empty, so that I can call your routes to test it.
+# A link to my github repository containing your app.py file with the required routes: https://github.com/Mayumi-GT/flask-hello-world
+# A link to your flask app on render: https://cspb3308-render-lab.onrender.com
+
 
 import psycopg2
 
